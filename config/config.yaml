@@ -1,0 +1,37 @@
+# Path related
+dataset_path: data/raw/lazadareviews.csv
+data_prediksi: data/raw/data_prediksi.csv
+kamus_path: data/raw/new_kamusalay.csv
+kamusalay_dict: data/raw/kamus.pkl
+dataset_cleaned_path: data/processed/raw_dataset.pkl
+#db_path: data/processed/cleandata.db
+train_set_path:
+- data/processed/x_train.pkl
+- data/processed/y_train.pkl
+vect_set_path:
+- data/processed/x_train_vect.pkl
+- data/processed/x_test_vect.pkl
+test_set_path:
+- data/processed/x_test.pkl
+- data/processed/y_test.pkl
+train_feng_set_path:
+- data/processed/x_train_feng.pkl
+- data/processed/y_train_feng.pkl
+valid_feng_set_path:
+- data/processed/x_valid_feng.pkl
+- data/processed/y_valid_feng.pkl
+test_feng_set_path:
+- data/processed/x_test_feng.pkl
+- data/processed/y_test_feng.pkl
+tfidf_train_path : data/processed/tfidf_train.pkl
+tfidf_model_path : data/processed/tfidf_model.pkl
+production_model_path: models/production_model.pkl
+model_nn_path: models/model_nn.h5
+model_lstm_path: models/model_lstm.h5
+
+# Predictors and label related
+label: sentiment
+predictors:
+- cleaned_data
+- review_len
+- punct
