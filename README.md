@@ -1,10 +1,10 @@
 
 # Sentiment Analysis (Lazada Product Reviews)
 
-The objective of this project is to do sentiment analysis for Lazada Product Reviews. Predicting whether a text is classified in a positive or negative sentiment. 
+The objective of this project is to do sentiment analysis for Lazada Product Reviews. Predicting whether a text is classified in positive or negative sentiment. 
 ## Introduction
 
-Lazada is e-commerce platform that provide services to the users to get their desired things to buy. From every transaction, users give comments and rating after buying products & services. The link of the dataset can be accessed here https://drive.google.com/file/d/1kDPoGzUDlw8tis8oDCJUkrtefMmiJLM0/view or find it in data/raw/lazadareviews.csv
+Lazada is an e-commerce platform that provides services to users to get their desired things to buy. From every transaction, users give comments and ratings after buying products & services. The link to the dataset can be accessed here https://drive.google.com/file/d/1kDPoGzUDlw8tis8oDCJUkrtefMmiJLM0/view or find it in data/raw/lazadareviews.csv
 ## Background
 
 Sentiment analysis in e-commerce is a powerful tool that helps businesses make data-driven decisions, enhance customer experience, and build stronger relationships with their customers. By understanding customer sentiments, e-commerce companies can adapt their strategies and offerings to meet customer expectations and stay competitive in the market.
@@ -26,11 +26,11 @@ Data cleaning and processing
 5. Modelling.ipynb
 Training model & prediction
 
-6. requirements.text
+6. requirements.txt
 The list of the used libraries 
 ## Procedure
 
-1. Install requirements
+1. Install required libraries, which can be found in requirements.txt
 2. Open & run EDA & Text Preprocessing.ipynb
 3. Open & run Modelling.ipynb
 ## Authors
