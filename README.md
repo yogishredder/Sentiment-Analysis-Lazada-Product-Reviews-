@@ -33,6 +33,3 @@ The list of the used libraries
 1. Install required libraries, which can be found in requirements.txt
 2. Open & run EDA & Text Preprocessing.ipynb
 3. Open & run Modelling.ipynb
-## Authors
-
-- [@Prayogi Adista](https://www.linkedin.com/in/prayogi-adista-purwanto-89878476/)
